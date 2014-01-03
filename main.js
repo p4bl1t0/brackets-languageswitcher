@@ -18,7 +18,8 @@ define(function (require, exports, module) {
         var editor = EditorManager.getFocusedEditor();
         if (editor) {
             if (_defaultLanguagesJSON[argKey].mode !== undefined && _defaultLanguagesJSON[argKey] !== null) {
-                console.log(_defaultLanguagesJSON[argKey].mode);
+                //console.log(_defaultLanguagesJSON[argKey].mode);
+                $("#status-language").text(_defaultLanguagesJSON[argKey].name);
                 editor._codeMirror.setOption("mode", _defaultLanguagesJSON[argKey].mode);
             }
         }
