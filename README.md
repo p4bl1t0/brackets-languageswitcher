@@ -10,6 +10,7 @@ This is an alpha version
 
 ###Roadmap
 - Allow to select dinamically added codemirror language (not present at languages.json)
+- [Idea] Change the language from the status bar name.
 - [Idea] Group by first letter like notepad
 
 
