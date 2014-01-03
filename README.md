@@ -5,11 +5,11 @@ Brackets extension to switch the syntax language of a file.
 
 This is an alpha version
 
-Features
+###Features
 - Language menu (sorted alphabetically)
 - Change Language on menu selection
 
-Roadmap
+###Roadmap
 - Update Language Name on Status bar (require for publish)
 - Allow to select dinamically added codemirror language (not present at languages.json)
 - [Idea] Group by first letter like notepad
